@@ -87,6 +87,7 @@ pub mod assets;
 pub mod audio;
 pub mod ecs;
 pub mod event;
+pub mod net;
 pub mod prelude;
 pub mod timing;
 pub mod util;
