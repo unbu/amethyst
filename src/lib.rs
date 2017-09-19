@@ -61,10 +61,13 @@ pub extern crate amethyst_input as input;
 pub extern crate amethyst_renderer as renderer;
 
 extern crate amethyst_assets;
+extern crate bincode;
 extern crate cgmath;
 extern crate crossbeam;
 #[macro_use]
 extern crate derivative;
+#[macro_use]
+extern crate error_chain;
 extern crate fnv;
 extern crate futures;
 extern crate gfx;
@@ -72,6 +75,11 @@ extern crate imagefmt;
 extern crate num_cpus;
 extern crate rayon;
 extern crate rodio;
+extern crate ron;
+extern crate serde;
+#[macro_use]
+extern crate serde_derive;
+extern crate smallvec;
 extern crate shred;
 extern crate smallvec;
 extern crate specs;
