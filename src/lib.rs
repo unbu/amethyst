@@ -79,7 +79,6 @@ extern crate ron;
 extern crate serde;
 #[macro_use]
 extern crate serde_derive;
-extern crate smallvec;
 extern crate shred;
 extern crate smallvec;
 extern crate specs;

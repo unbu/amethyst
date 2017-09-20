@@ -5,7 +5,6 @@
 pub struct SyncSeq(pub(crate) u64);
 
 impl SyncSeq {
-
     pub(crate) fn new() -> Self {
         SyncSeq(0)
     }
