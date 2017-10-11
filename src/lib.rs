@@ -79,6 +79,9 @@ extern crate smallvec;
 extern crate specs;
 extern crate wavefront_obj;
 
+#[macro_use]
+extern crate serde_derive;
+
 pub use self::app::{Application, ApplicationBuilder};
 pub use self::engine::Engine;
 pub use self::error::{Error, Result};
